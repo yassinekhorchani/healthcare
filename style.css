@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body.home{
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li a {
+    color: #ababab;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.the-nav-bar {
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+ul li ul li a {
+    font-size: 12px;
+}
+
+ul li ul li {
+    width: 180px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+ul li a:hover {
+    background: rgb(49, 236, 236);
+}
+.two-text {
+    display: flex;
+}
+.the-nav-bar {
+    display: flex;
+}
+.top,
+.bot {
+    display: flex;
+}
+
+
+div.health{
+    padding-top:200px ;
+    text-align: center;
+}
+div.health nav{
+    width: 50%;
+    color: grey;
+}
+div.health nav h1{
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 50px;
+}
+div.health nav p{
+    padding-bottom: 20px;
+}
+button{
+    border: none;
+    background-color: rgb(49, 236, 236);
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+div.service{
+    overflow: hidden;
+    width: 30%;
+    float: left;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+div.service h1{
+    font-weight: normal;
+}
+div.service p, div.ourservice p{
+    padding-top: 20px;
+    color: gray;
+}
+div.ourservice{
+    padding: 20px;
+    padding-top: 100px;
+    width: 60%;
+    float: right;
+}
+div.ourservice nav{
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    padding: 2.5%;
+}
+div.ourservice nav img{
+    width: 50px;
+    height: 50px;
+}
+div.ourservice nav h2{
+    padding-bottom: 20px;
+    font-size: larger;
+}
+div.ourservice nav:hover{
+    background-color: rgb(49, 236, 236);
+}
+div.table{
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+div.table nav {
+    border: 5px solid white;
+    padding: 2%;
+    padding-top: 20px;
+    width: 28%;
+    color: white;
+    background-color: rgb(49, 236, 236);
+    float: left;
+    border-radius: 20px;
+    height: 220px;
+}
+div.table h2{
+    padding-bottom: 20px;
+}
+div.table nav  p{
+    padding-bottom: 20px;
+}
+div.table nav button{
+    border: 1px solid white;
+    background-color: rgb(49, 236, 236);
+    border-radius: 20px;
+}
+table{
+    width: 100%;
+}
+table, tr, td{
+    border: 2px solid white;
+    padding: 10px;
+}
+table.aboutservice{
+    overflow: hidden;
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 60%;
+}
+table.aboutservice tr td{
+    padding: 20px; 
+}
+td h2{
+    padding-bottom: 10px; 
+}
+td img{
+    width: 50px;
+    height: 50px;
+}
+div.doctors{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+}
+div.doctors div{
+    float: left;
+    width: 23%;
+    padding: 1%;
+}
+div.doctors div nav{
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.15);
+    color: rgb(216, 216, 29);
+    text-align: left;
+    float: inherit;
+    border-bottom-left-radius: 20px;  
+    border-bottom-right-radius: 20px;
+}
+h3{
+    font-weight: normal;
+    font-size: x-large;
+    padding: 20px;
+}
+samp{
+    color: grey;
+}
+div.doctors div img{
+    height:200px;
+    width: 100%;  
+    float: inherit;
+    border-bottom: none;
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;
+}
+div.patients{
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+div.patients nav{
+    width: 33%;
+    float: left;
+}
+div.patients nav div{
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 10px 5px 5px #ddd;
+}
+div.patients nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+div.black{
+    background-image: url("images/navbg.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+div.black nav{
+    float: left;
+    text-align: left;
+    width: 35%;
+}
+nav.tranformer{
+    margin-left:100px ;
+}
+div.black nav h1{
+    color: white;
+    margin: 50px;
+}
+div.black nav p{
+    padding: 20px;
+    padding-top: 50px;
+    color: white;
+}
+table{
+    float: left;
+}
+table.min{
+    width: 30%;
+}
+table.max{
+    width: 70%;
+}
+td{
+    padding: 5px;
+}
+td img, td.imgf{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+samp{
+    font-style:unset;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(43, 4, 4);
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    height: 40px;
+    font-size: large;
+}
+input.btn{
+    background-color: rgb(49, 236, 236);
+    border: 1px solid rgb(49, 236, 236);
+    color: white;
+    width: 40%;
+    height: 30px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+nav.hihi{
+    overflow: hidden;
+    width: 100%;
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    padding: 20px;
+}
+div.about{
+    padding: 3%;
+    padding-top: 0.5%;
+    width: 26%;
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+div.about a img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+div.about p{
+    float: left;
+    color: black;
+    margin-top: 20px;
+}
+div.about ul {
+    list-style: outside;
+    color: black;
+    margin-left: 20px;
+}
+div.about ul li{
+    padding-bottom: 5px;
+    text-align: left;
+    width: 100%;
+    
+}
+h4{
+    font-size: x-large;
+    color: gray
+}
+@media screen and (max-width: 800px) {
+    div.health{
+        padding-top: 100px;
+    }
+    div.service, div.ourservice, div.table,div.table nav{
+        text-align: center;
+        width: 95%;
+        float: none;
+    }
+    div.ourservice nav{
+        text-align: center;
+    }
+    h1{
+        text-align: left;
+    }
+    h1.hometitle{
+        text-align: center;
+    }
+    table.aboutservice, div.doctors div{
+        width: 96%;
+    }
+    div.doctors div img{
+        height: 350px;
+    }
+    div.black nav {
+        width: 45%;
+    }
+    nav.tranformer{
+        margin-left: 0px;
+    }
+    div.patients nav{
+        width: 100%;
+        float: none;
+    }
+    
+    table.min{
+        width: 100%;
+        float: none;
+    }
+    table.max{
+        width: 100%;
+        float: none;
+    }
+    div.about{
+        width: 80%;
+    }
+}
